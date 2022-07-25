@@ -11,7 +11,7 @@ function App() {
     <div>
     <NavBar />
     <Switch>
-      <Route path="/">
+      <Route exact path="/">
       <Home />
       </Route>
       <Route exact path="/wishlist">

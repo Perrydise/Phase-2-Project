@@ -12,7 +12,7 @@ function Home () {
             <ul className="home-list">What you can expect on this site:
             <li>Information on some of the biggest coins and projects</li>
             <li>The ability to make a wishlist for coins you you want to invest in</li>
-            <li>A live look at coins on the market and whats happening with prces</li>
+            <li>A live look at coins on the market and whats happening with prices</li>
             </ul>
         </div>
     )
