@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import CryptoForm from "./CryptoForm";
+import CryptoItem from "./CryptoItem";
 
 function WishList() {
     const [coins, setCoins] = useState([])
@@ -24,7 +25,7 @@ function WishList() {
  const cryptoList = coins.map((element, index) => {
     const name = element.name
     const description = element.description
-    return <li key={index}>{name}: {description}</li> })
+    return <CryptoItem name={name} description={description} /> })\\
     
 
     function handleSubmit(newItem) {
@@ -38,10 +39,10 @@ function WishList() {
                 Fill out our form and the project will be added to your list!
             </h2>
             <div className="list-div">
-            <CryptoForm coinsArray={coins} onItemFormSubmit={handleSubmit} onDelete={handleDeleteQuestion}/>
+            <CryptoForm coinsArray={coins} onItemFormSubmit={handleSubmit} />
                 <ul>
                     Project watch list
-                   {cryptoList}
+                   <CryptoItem onDelte={handleDeleteQuestion}/>
                 </ul>
             </div>
            
