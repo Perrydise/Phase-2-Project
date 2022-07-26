@@ -14,9 +14,9 @@ function WishList() {
  }, [])
 
     function handleDeleteQuestion(deletedQuestionId) {
-        const updatedCryptoList = coins.filter((coins) => {
-            console.log(deletedQuestionId, coins, coins.id)
-            return deletedQuestionId != coins.id
+        const updatedCryptoList = coins.filter((coin) => {
+            console.log(deletedQuestionId, coin, coin.id)
+            return deletedQuestionId != coin.id
         })
         console.log(updatedCryptoList)
     }
