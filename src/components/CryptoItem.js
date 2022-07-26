@@ -1,6 +1,6 @@
 import React from "react";
 
-function CryptoItem(name, description, onDelete) {
+function CryptoItem(name, description, onDelete, key) {
 
     function handleDeleteClick() {
         fetch(`http://localhost:3000/Coins/${id}`, {
@@ -11,10 +11,10 @@ function CryptoItem(name, description, onDelete) {
     }
 
     return (
-        <li>
+        <li key={key}>
             <h1>name: {name}</h1>
             <p>Description: {description} </p>
-        <button>Delete</button>
+        <button onClick={handleDeleteClick}>Delete</button>
         </li>
     )
 }

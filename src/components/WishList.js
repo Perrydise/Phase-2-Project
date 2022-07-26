@@ -25,7 +25,7 @@ function WishList() {
  const cryptoList = coins.map((element, index) => {
     const name = element.name
     const description = element.description
-    return <CryptoItem name={name} description={description} /> })\\
+    return <CryptoItem name={name} description={description} key={index} /> })
     
 
     function handleSubmit(newItem) {
