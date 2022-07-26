@@ -1,14 +1,64 @@
 {
-    "Coins": [
-      {
-        "id": 1,
-        "name": "Bitcoin",
-        "description": "Bitcoin is a decentralized digital currency that can be transferred on the peer-to-peer bitcoin network."
-      },
-      {
-        "id": 2,
-        "name": "Ethereum",
-        "description": "Ethereum is a decentralized blockchain platform that establishes a peer-to-peer network that securely executes and verifies application code, called smart contracts"
-      }
-    ]
-  }
+  "Coins": [
+    {
+      "id": 1,
+      "name": "Bitcoin",
+      "description": "Bitcoin is a decentralized digital currency that can be transferred on the peer-to-peer bitcoin network."
+    },
+    {
+      "id": 2,
+      "name": "Ethereum",
+      "description": "Ethereum is a decentralized blockchain platform that establishes a peer-to-peer network that securely executes and verifies application code, called smart contracts"
+    },
+    {
+      "id": "b87a56cc-1244-4b66-a548-86da9759d17b",
+      "name": "Cardano",
+      "description": "A fake ethereum"
+    },
+    {
+      "id": "51f93c6a-f9b5-433c-9e56-d2e0f0f7267f",
+      "name": "Cardano",
+      "description": "A fake ethereum"
+    },
+    {
+      "id": "6d19a0ae-2b10-4ff7-ac06-9893220095b1",
+      "name": "Cardano",
+      "description": "A fake ethereum"
+    },
+    {
+      "id": "64b38f58-862a-4387-a5c9-b1026e56fea4",
+      "name": "Cardano",
+      "description": "A fake ethereum"
+    },
+    {
+      "id": "45603b32-90e6-41d4-8b26-4eed565f4375",
+      "name": "Cardano",
+      "description": "A fake ethereum"
+    },
+    {
+      "id": "9d27b610-c466-4fa7-bec0-f5ba57954f4a",
+      "name": "Cardano",
+      "description": "A fake ethereum"
+    },
+    {
+      "id": "1f536021-b412-4231-ae29-4afb5ed4f908",
+      "name": "Cardano",
+      "description": "A fake ethereum"
+    },
+    {
+      "id": "f6de7fb7-3c06-4aa2-aa67-3b862789ed98",
+      "name": "Cardano",
+      "description": "A fake ethereum"
+    },
+    {
+      "id": "d429b35f-460d-44a0-872a-e2a187545737",
+      "name": "Cardano",
+      "description": "A fake ethereum"
+    },
+    {
+      "id": "39143000-134a-45fc-8a05-e7bb853521f0",
+      "name": "Cardano",
+      "description": "A fake ethereum"
+    }
+  ]
+}

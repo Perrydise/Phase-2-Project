@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { v4 as uuid } from "uuid";
 
-function CryptoForm ({ onItemFormSubmit}) {
+function CryptoForm ({ onDelete }) {
     const [newName, setNewName] = useState("")
     const [newDescription, setNewDescription] = useState("")
 
@@ -13,21 +13,29 @@ function CryptoForm ({ onItemFormSubmit}) {
         setNewDescription(event.target.value)
     }
 
-    function handleCoinSubmit() {
+    function handleCoinSubmit(event) {
+        event.preventDefault()
         const newItem = {
             id: uuid(),
             name: newName,
             description: newDescription
         }
+        fetch("http://localhost:3000/coins", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(newItem)
+  })
     }
 
 return(
-    <form className="new-crpyto-form">
+    <form className="new-crpyto-form" onSubmit={handleCoinSubmit}>
        <label>
         Please enter your projects info
-        <input type="text" name="Project name"/>
+        <input type="text" name="Project name" value={newName} onChange={handleCoinName}/>
         </label>
-        <input type="text" name="Project Chain"/>
+        <input type="text" name="Description" value={newDescription} onChange={handleCoinDescription}/>
         <input type="submit" value="Add project"/>
     </form>
 )
