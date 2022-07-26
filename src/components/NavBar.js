@@ -33,6 +33,16 @@ function NavBar () {
         >
             Wish List
         </NavLink>
+        <NavLink
+        to="/PriceDisplay"
+        exact
+        style={linkStyles}
+        activeStyle={{
+            background: "darkblue"
+        }}
+        >
+            Live Price display
+        </NavLink>
     </div>
 
     )
