@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { v4 as uuid } from "uuid";
 
-function CryptoForm ({ onDelete }) {
+function CryptoForm ({ onItemFormSubmit }) {
     const [newName, setNewName] = useState("")
     const [newDescription, setNewDescription] = useState("")
 
@@ -27,6 +27,9 @@ function CryptoForm ({ onDelete }) {
     },
     body: JSON.stringify(newItem)
   })
+  onItemFormSubmit(newItem)
+  setNewName("")
+  setNewDescription("")
     }
 
 return(

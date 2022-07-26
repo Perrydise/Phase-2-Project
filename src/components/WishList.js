@@ -4,7 +4,6 @@ import CryptoItem from "./CryptoItem";
 
 function WishList() {
     const [coins, setCoins] = useState([])
-    const [newArray, setNewArray] = useState()
     
 
     useEffect(() => {
@@ -19,17 +18,18 @@ function WishList() {
             console.log(deletedQuestionId, coin, coin.id)
             return deletedQuestionId != coin.id
         })
-        console.log(updatedCryptoList)
+        setCoins(updatedCryptoList)
     }
 
  const cryptoList = coins.map((element, index) => {
     const name = element.name
+    const id = element.id
     const description = element.description
-    return <CryptoItem name={name} description={description} key={index} /> })
+    return <CryptoItem name={name} description={description} key={index} id={id} onDelete={handleDeleteQuestion}/> })
     
 
     function handleSubmit(newItem) {
-        setNewArray([...newArray, newItem])
+        setCoins([...coins, newItem])
     }
 
     return (
@@ -42,7 +42,7 @@ function WishList() {
             <CryptoForm coinsArray={coins} onItemFormSubmit={handleSubmit} />
                 <ul>
                     Project watch list
-                   <CryptoItem onDelte={handleDeleteQuestion}/>
+                   {cryptoList}
                 </ul>
             </div>
            
