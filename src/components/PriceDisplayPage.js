@@ -18,7 +18,7 @@ function PriceDisplayPage() {
         return (<div className="coin-display">
             <h1>{name}</h1>
             <h2>{price}</h2>
-            <img src={image} alt={name}></img>
+            <img src={image} alt={name} width="200" height="200"></img>
             </div>
         )
     })
