@@ -18,7 +18,7 @@ function PriceDisplayPage() {
         return (<div className="coin-display">
             <h1>{name}</h1>
             <h2>{price}</h2>
-            <img src={image} alt={name} width="200" height="200"></img>
+            <img src={image} alt={name} width="80" height="80"></img>
             </div>
         )
     })
@@ -27,6 +27,7 @@ function PriceDisplayPage() {
     return (
         <div className="display-page">
     <h1 className="display-page-header">Welcome to our live price display page!</h1>
+    <h2>The coins below will have all a beginner needs to know when it comes to price, name, and the sybmol their represented by. Enjoy!</h2>
     <p>{apiDisplay}</p>
     </div>
 
