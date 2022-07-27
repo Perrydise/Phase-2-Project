@@ -34,7 +34,7 @@ function NavBar () {
             Wish List
         </NavLink>
         <NavLink
-        to="/PriceDisplay"
+        to="/PriceDisplayPage"
         exact
         style={linkStyles}
         activeStyle={{

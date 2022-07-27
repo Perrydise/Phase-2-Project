@@ -18,7 +18,7 @@ function App() {
       <Route exact path="/wishlist">
         <WishList />
       </Route>
-      <Route exact path="pricedisplay">
+      <Route exact path="/pricedisplaypage">
         <PriceDisplayPage />
       </Route>
     </Switch>
