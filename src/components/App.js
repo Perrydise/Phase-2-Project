@@ -3,6 +3,7 @@ import NavBar from './NavBar';
 import React from 'react';
 import { Route, Switch } from "react-router-dom"
 import WishList from './WishList';
+import PriceDisplayPage from './PriceDisplayPage';
 
 
 
@@ -16,6 +17,9 @@ function App() {
       </Route>
       <Route exact path="/wishlist">
         <WishList />
+      </Route>
+      <Route exact path="pricedisplay">
+        <PriceDisplayPage />
       </Route>
     </Switch>
     </div>
