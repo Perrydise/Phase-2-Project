@@ -4,6 +4,7 @@ import React from 'react';
 import { Route, Switch } from "react-router-dom"
 import WishList from './WishList';
 import PriceDisplayPage from './PriceDisplayPage';
+import "../App.css"
 
 
 
