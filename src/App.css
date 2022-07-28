@@ -4,16 +4,19 @@
 
 .home-header {
   font-family: "Times New Roman", Times, Serif;
-  font-size: 40px;
+  font-size: 80px;
   text-align: center;
   text-shadow: 0px 4px 10px rgba(179, 147, 211, 0.8)  
 }
 
 .home-p {
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
+  margin-top: 100px;
 }
 
 .home-list {
-  text-indent: 10em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  text-align: center;
 }

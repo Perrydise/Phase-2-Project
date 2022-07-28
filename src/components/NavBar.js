@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom"
 const linkStyles = {
     display: "inline-block",
     width: "50px",
-    padding: "12px",
+    padding: "20px 10px",
     margin: "0 6px 6px",
     background: "blue",
     textDecoration: "none",
