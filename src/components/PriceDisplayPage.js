@@ -25,7 +25,7 @@ function PriceDisplayPage() {
        
             <div className="column">
         <div className="card" key={id}>
-  <img src={image} class="card-img-top" alt={name} width="50" height="50"></img>
+  <img src={image} class="card-img-top" alt={name}></img>
   <div className="card-body">
     <h5 className="card-title">{name}</h5>
     <p className="card-text">{price}</p>
