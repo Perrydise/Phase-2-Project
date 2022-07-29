@@ -9,11 +9,6 @@
       "id": "44f18213-aedf-4337-adc3-239c4867f46e",
       "name": "Ethereum",
       "description": "Ethereum is the node for which bitcoin makes its transactions on."
-    },
-    {
-      "id": "0d5dcb14-9918-48b3-b919-f72fb1021872",
-      "name": "Cardano",
-      "description": "A fake ethereum"
     }
   ]
 }
