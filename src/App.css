@@ -6,7 +6,8 @@
   font-family: "Times New Roman", Times, Serif;
   font-size: 80px;
   text-align: center;
-  text-shadow: 0px 4px 10px rgba(179, 147, 211, 0.8)  
+  text-shadow: 0px 4px 10px rgba(179, 147, 211, 0.8);
+  margin-top: 20px;  
 }
 
 .home-p {
@@ -19,4 +20,45 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 40px;
   text-align: center;
+  margin-top: 50px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.display-page-header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.display-second-header {
+  margin-left: 10px;
+  margin-bottom: 35px;
 }

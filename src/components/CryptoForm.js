@@ -32,7 +32,7 @@ function CryptoForm ({ onItemFormSubmit }) {
   setNewDescription("")
     }
 
-return(
+return (
     <form className="new-crpyto-form" onSubmit={handleCoinSubmit}>
        <label>
         Please enter your projects info
@@ -42,6 +42,6 @@ return(
         <input type="submit" value="Add project"/>
     </form>
 )
-}
+} 
 
 export default CryptoForm
