@@ -64,8 +64,9 @@
 }
 
 .wish-header {
-  margin-top: 20px;
-}
+  margin-top: 10px;
+  text-align: center;
+  }
 
 .wish-second-header {
   margin-top: 50px;
@@ -87,4 +88,8 @@
 
 .description-div {
   margin-top: 20px;
+}
+
+.item-div {
+  margin-top: 30px;
 }

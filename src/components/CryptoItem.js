@@ -11,11 +11,13 @@ function CryptoItem( {name, description, onDelete, id }) {
     }
 
     return (
+        <div className="item-div">
         <li key={id}>
             <h1>Name: {name}</h1>
             <p>Description: {description} </p>
         <button onClick={handleDeleteClick}>Delete</button>
         </li>
+        </div>
     )
 }
 
