@@ -34,10 +34,14 @@ function CryptoForm ({ onItemFormSubmit }) {
 
 return (
     <form className="new-crpyto-form" onSubmit={handleCoinSubmit}>
+        <div className="name-div">
         <label for="Project name">Enter your projects name: </label>
         <input className="name-box" type="text" name="Project name" value={newName} onChange={handleCoinName}/>
+        </div>
+        <div className="description-div">
         <label for="Description">Enter your projects description: </label>
         <input className="description-box" type="text" name="Description" value={newDescription} onChange={handleCoinDescription}/>
+        </div>
         <input type="submit" value="Add project"/>
     </form>
 )

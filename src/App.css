@@ -76,11 +76,15 @@
 }
 
 .description-box {
-  height: 100px;
+  height: 70px;
   width: 75%;
   margin-left: 20px;
 }
 
 .name-box {
   margin-left: 5px;
+}
+
+.description-div {
+  margin-top: 20px;
 }
