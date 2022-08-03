@@ -41,7 +41,6 @@ function WishList() {
             <div className="list-div">
             <CryptoForm coinsArray={coins} onItemFormSubmit={handleSubmit} />
                 <ul>
-                    Project watch list
                    {cryptoList}
                 </ul>
             </div>
