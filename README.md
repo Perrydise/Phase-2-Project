@@ -10,17 +10,19 @@ This is a motto we strive off of when this site was created.  With a easy to nav
 
 A home page is what grabs the users attention and tells them everything they need to know about what they will be getting themselves into when they explore the rest of the page.  With a welcomeing title and a list of what users can expect upon entering the site, the home page is a very welcoming place to land on.
 
-*insert screenshot of home page*
+<img src="C:\Users\pjors\OneDrive\Pictures/homescreen">
 
 ## The Wishlist
 
 This page is designed to allow our users to fill out a form using our controlled form format to create a list of coins they are interested or have even purchased.  This was created to allow simple orginization in a world with many many products.  The two most important pieces of information when it comes to a project is a name and a discription of why this product will succeed.  We allowed the user to write their own description in their own words because in the world of the metaverse contains an obscene amount of meta-language.  The description box allows the user to write about the project in their own words so they can refer back to it later and be able to understand why they picked this project.  With the delete button available if a user wants to edit this list the option is always available to delete the project with the click of a button.
 
+<img src="C:\Users\pjors\OneDrive\Pictures/wishlist">
+
 ## Price Display
 
 Price display page is our favorite part of this page.  With the help of CoinGeckos API we are able to clearly display 100 of the top projects in the crypto space right now inclduing the name, live prive, and a symbol of the coin so users are able to get a great first mark about the project.  The decision to leave the discription out of the display of coins was a tough but user friendly decision.  We wanted to give the user a just enough info about a project to get their intrests sparked.  Whether its the interesting name, cool picture, or a low price point, we want the user to take the info from that page and go out to do their own already slimmed down research and once they have an idea about the coin, go back to our wishlist page, add it to their list and write what they think of the coin and how it works in their own words.
 
-*insert screen shot of price displau*
+<img src="C:\Users\pjors\OneDrive\Pictures/wishlist">
 
 # How To Run
 
@@ -51,8 +53,22 @@ npm start
 
 If you wish to just get a glimpse of the sight please take a look at the walkthrough video provided below!
 
-*insert youtube walkthrough*
+https://youtu.be/HpQVuXcPO-s
 
 # Credits
 
 During the build of this app, a public API was used from CoinGecko and CSS intrsuments were used from Bootstrap
+
+# License
+
+#License
+
+MIT License
+
+Copyright (c) [2022] [Perry Jorss]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

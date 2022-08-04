@@ -3,7 +3,7 @@ import React from "react";
 function Home () {
     return (
         <div className="header-div">
-            <h1 className="home-header">Hello and Welcome to the starting place for all Crypto Newbies!</h1>
+            <h1 className="home-header">Welcome to the starting place for all Crypto Newbies!</h1>
             <div>
             <p className="home-p">
                 This site will give you all the basics of crypto you need to get started.
